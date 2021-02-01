@@ -6,4 +6,5 @@ if __name__ == '__main__':
                                                    "tags": str})
     print('hello')
     print('hello, world')
+
     data.groupby(['topic', 'tags']).size()
